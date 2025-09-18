@@ -1,0 +1,31 @@
+{
+	"_method_": {},
+	"cs.Apple": {
+		"Info": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		}
+	},
+	"Info": {
+		"test()": {
+			"Syntax": "**.test**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"name": {
+			"Syntax": "name : Text"
+		},
+		"version": {
+			"Syntax": "version : Text"
+		}
+	}
+}
