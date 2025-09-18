@@ -33,15 +33,8 @@ jobs:
 
       - name: configure
         id: configure
-        run: |
-          if [ "${mode}" = "" ]; then
-          echo "mode=patch" >> $GITHUB_OUTPUT
-          else
-          echo "mode=${mode}" >> $GITHUB_OUTPUT
-          fi
-          echo "project_path=${GITHUB_WORKSPACE}/${project_path}" >> $GITHUB_OUTPUT 
-        shell: bash
-        env:
+        uses: miyako/4D/.github/actions/bash/configure@v1
+        with:
           mode: ${{ inputs.mode || 'patch' }}
 
       - name: checkout 
