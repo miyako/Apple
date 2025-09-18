@@ -2,4 +2,4 @@
 
 ## dependencies
 
-- ゴリラ🦍
+- [ゴリラ🦍](https://github.com/miyako/Gorilla)
