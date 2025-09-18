@@ -42,7 +42,7 @@ jobs:
           echo "project_path=${GITHUB_WORKSPACE}/${project_path}" >> $GITHUB_OUTPUT 
         shell: bash
         env:
-          mode: ${{ inputs.mode || "patch" }} 
+          mode: ${{ inputs.mode || 'patch' }} 
 
       - name: checkout 
         uses: actions/checkout@v4
