@@ -1,2 +1,5 @@
 # りんご🍎
-dependency demo
+
+## dependencies
+
+- ゴリラ🦍
