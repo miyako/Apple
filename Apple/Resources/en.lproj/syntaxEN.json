@@ -10,22 +10,14 @@
 		}
 	},
 	"Info": {
-		"test()": {
-			"Syntax": "**.test**() : Collection",
-			"Params": [
-				[
-					"",
-					"Collection",
-					"<-"
-				]
-			],
-			"Summary": ""
+		"version": {
+			"Syntax": "version : Text"
+		},
+		"description": {
+			"Syntax": "description : Text"
 		},
 		"name": {
 			"Syntax": "name : Text"
-		},
-		"version": {
-			"Syntax": "version : Text"
 		}
 	}
 }
