@@ -1,6 +1,7 @@
 property name : Text
 property version : Text
 property description : Text
+property gorilla : cs:C1710.Gorilla.Info
 
 Class constructor
 	
@@ -16,4 +17,7 @@ Class constructor
 		This:C1470.version:=$packageJson.version
 		This:C1470.description:=$packageJson.description
 	End if 
+	
+	This:C1470.gorilla:=cs:C1710.Gorilla.Info.new()
+	
 	
