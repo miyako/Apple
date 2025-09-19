@@ -18,6 +18,6 @@ Class constructor
 		This:C1470.description:=$packageJson.description
 	End if 
 	
-	This:C1470.gorilla:=cs:C1710.Gorilla.Info.new()
+	//This.gorilla:=cs.Gorilla.Info.new()
 	
 	
