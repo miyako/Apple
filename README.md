@@ -1,6 +1,6 @@
 # りんご🍎
 
-## dependencies
+[`dependencies.json`](https://github.com/miyako/Apple/blob/main/Apple/Project/Sources/dependencies.json)
 
 - りんご🍎
   - [ゴリラ🦍](https://github.com/miyako/Gorilla)
