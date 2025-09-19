@@ -13,6 +13,9 @@
 		"version": {
 			"Syntax": "version : Text"
 		},
+		"gorilla": {
+			"Syntax": "gorilla : cs.Gorilla.Info"
+		},
 		"description": {
 			"Syntax": "description : Text"
 		},
